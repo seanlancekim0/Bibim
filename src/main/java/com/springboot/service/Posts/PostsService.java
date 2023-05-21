@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 @Service
 public class PostsService {
-
     private final PostsRepository postsRepository;
 
     @Transactional
